@@ -7,6 +7,10 @@ module.exports = function(gulp){
             browserSync.reload();
         });
 
+        gulp.watch('assets/sass/*.sass', function(){
+            browserSync.reload();
+        });
+
         gulp.watch('assets/src/app/**/*.js', function(){
             gulp.start('concat');
             browserSync.reload();
