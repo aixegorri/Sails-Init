@@ -13,6 +13,7 @@
     "rimraf": "*",
     "run-sequence": "1.0.0",
     "sails": "~0.11.0",
+    "sails-hook-autoreload": "^0.11.5",
     "sails-disk": "~0.10.0"
   },
   "name": "sails-init",
